@@ -1,0 +1,111 @@
+/* Layout */
+.container {
+  padding: 40px;
+  font-family: system-ui;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.button-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button:hover {
+  background: #4338ca;
+}
+
+/* Table */
+.table-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background: #111827;
+  color: white;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Row states */
+.row-ok {
+  background-color: #dcfce7;
+}
+
+.row-mismatch {
+  background-color: #fee2e2;
+}
+
+.row {
+  cursor: pointer;
+}
+
+/* Chart */
+.chart-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.fixed-chart {
+  min-height: 350px;
+}
+
+.status-text {
+  white-space: nowrap;
+}
+
+.open {
+  color: green;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.closed {
+  color: red;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-text {
+  white-space: nowrap;
+  font-weight: 500;
+}
