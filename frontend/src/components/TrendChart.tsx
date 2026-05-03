@@ -42,13 +42,18 @@ export default function TrendChart({ data }: Props) {
       <Line
         type="monotone"
         dataKey="actual_open"
+        stroke="#2563eb"
         name="Actual"
+        dot={false}
       />
 
       <Line
         type="monotone"
         dataKey="expected_open"
+        stroke="#16a34a"
+        strokeDasharray="5 5"
         name="Expected"
+        dot={false}
       />
     </LineChart>
   );
